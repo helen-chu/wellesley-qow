@@ -817,7 +817,15 @@ a.video-popup-holder:hover img.popup-play
     background-size: 100%; 
     z-index: 4;
 }
+#skills .section-title-holder
+{
+    background-color: rgb(255, 186, 66);
+}
 
+#skills .section-title-holder span
+{
+    color: #e3a436;
+}
 .progress_bar 
 {
     margin-bottom: 15px;
