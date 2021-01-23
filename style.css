@@ -7,6 +7,7 @@ body
     color: #23214c;    
 }
 
+
 body a
 {
     text-decoration: none;
@@ -851,7 +852,7 @@ a.video-popup-holder:hover img.popup-play
 .progress_bar_field_holder:hover .progress_bar_title
 {
     left: 10px;
-    color: #fff !important;
+    /* color: #fff !important; */
 }
 
 .progress_bar_field_holder:hover .progress_bar_percent_text
@@ -894,7 +895,17 @@ a.video-popup-holder:hover img.popup-play
     left: 0;
     width: 100%;
 }
-
+.question
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #23214c;
+    overflow-wrap: break-word;
+    width: 100%; 
+    word-wrap: break-word;   
+}
 /* END SKILLS SECTION */
 
 
