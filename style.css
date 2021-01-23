@@ -221,6 +221,7 @@ body a:hover
     line-height: 100%;
     text-transform: uppercase;
     margin-top: -75px;
+    margin-bottom: 30px;
     color: #221c5a;    
 }
 
@@ -247,6 +248,13 @@ body a:hover
 .section:last-of-type .extra-content-left, .section:last-of-type .extra-content-right, .section:last-of-type .extra-content-full-width
 {
     padding-bottom: 0;
+}
+
+.small-header
+{
+    font-size: 20px;
+    font-weight: bold;
+
 }
 
 /* END GENERAL SECTION */
