@@ -7,6 +7,7 @@ body
     color: #23214c;    
 }
 
+
 body a
 {
     text-decoration: none;
@@ -841,21 +842,23 @@ a.video-popup-holder:hover img.popup-play
 
 .progress_bar_field_holder 
 {
-    height: 50px;
+    height: 59px;
     position: relative;
     width: 100%;
     vertical-align: middle;
     overflow: hidden;
-    padding: 20px;
 }
-.progress_bar_field_holder:hover{
-    font-size: 0px;
+
+.progress_bar_field_holder:hover .progress_bar_title
+{
+    left: 10px;
+    /* color: #fff !important; */
 }
-.progress_bar_field_holder:hover:after{
-    content: attr(data-hover);
-    font-size: 15px;
-    line-height: 30px;
-    font-weight: 10;
+
+.progress_bar_field_holder:hover .progress_bar_percent_text
+{
+    right: 10px;
+    color: #fff !important;
 }
 
 .progress_bar_title
@@ -869,10 +872,6 @@ a.video-popup-holder:hover img.popup-play
     font-size: 40px;
     line-height: 100%;
     transition: color .2s linear, left .2s linear;
-}
-.progress_bar_title:hover{
-    left: 10px;
-    opacity: 0;
 }
 
 .progress_bar_percent_text
@@ -896,7 +895,17 @@ a.video-popup-holder:hover img.popup-play
     left: 0;
     width: 100%;
 }
-
+.question
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #23214c;
+    overflow-wrap: break-word;
+    width: 100%; 
+    word-wrap: break-word;   
+}
 /* END SKILLS SECTION */
 
 
